@@ -1,0 +1,51 @@
+/* App.css */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.color-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-box {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.color-box:hover {
+  transform: scale(1.1);
+}
+
+.color-name {
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.selected-color {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
